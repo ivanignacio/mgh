@@ -12,6 +12,9 @@
 		D846A98E21C1F8A9007FC871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D846A98C21C1F8A9007FC871 /* Main.storyboard */; };
 		D846A99021C1F8AB007FC871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D846A98F21C1F8AB007FC871 /* Assets.xcassets */; };
 		D846A99321C1F8AB007FC871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D846A99121C1F8AB007FC871 /* LaunchScreen.storyboard */; };
+		D846A99B21C1FA3C007FC871 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846A99A21C1FA3C007FC871 /* Page.swift */; };
+		D846A99D21C1FC67007FC871 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846A99C21C1FC67007FC871 /* SwipingController.swift */; };
+		D846A99F21C1FE1D007FC871 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D846A99E21C1FE1D007FC871 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D846A98F21C1F8AB007FC871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D846A99221C1F8AB007FC871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D846A99421C1F8AB007FC871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D846A99A21C1FA3C007FC871 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		D846A99C21C1FC67007FC871 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		D846A99E21C1FE1D007FC871 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				D846A98F21C1F8AB007FC871 /* Assets.xcassets */,
 				D846A99121C1F8AB007FC871 /* LaunchScreen.storyboard */,
 				D846A99421C1F8AB007FC871 /* Info.plist */,
+				D846A99A21C1FA3C007FC871 /* Page.swift */,
+				D846A99C21C1FC67007FC871 /* SwipingController.swift */,
+				D846A99E21C1FE1D007FC871 /* PageCell.swift */,
 			);
 			path = "My Green House";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D846A98B21C1F8A9007FC871 /* ViewController.swift in Sources */,
+				D846A99F21C1FE1D007FC871 /* PageCell.swift in Sources */,
 				D846A98921C1F8A9007FC871 /* AppDelegate.swift in Sources */,
+				D846A99B21C1FA3C007FC871 /* Page.swift in Sources */,
+				D846A99D21C1FC67007FC871 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
