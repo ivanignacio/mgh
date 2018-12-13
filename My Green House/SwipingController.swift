@@ -22,10 +22,9 @@ class SwippingController: UICollectionViewController, UICollectionViewDelegateFl
         Page(image: "MyGreenHouse", header: "My Green House App", body: "We are more than excited to help you get started in this, your new journey. We will guide you through the process to set up the modules in your <<My Green House>> Additionally you will be able to control not only the lights but implement a full green house"),
         Page(image: "GreenLeaf", header: "Subscribe and get coupons on our daily events", body: "Get notified of the savings immediately when we announce them on our website. Make sure to also give us any feedback you have, so we can help more people using My Green House"),
         Page(image: "GirlWithiPad", header: "Easy setup", body: "Once you setup the App you will be able to manage your My Green House, control independently every station inside of it and receive information related with best practices completely customized for you"),
-       
-        Page(image: "AppleWatch", header: "Keep connected while you are away", body: "With a full connection, we are proud to announce the new implementation of real time databases, keep connected no matter where you are."),
-         Page(image: "FaceId", header: "Security", body: " Advanced Face ID. Security is simple when your face is your password. You can unlock your My Green House, log in to independent stations and pay for add-ons with a glance"),
-        Page(image: "Apple3", header: "Don't miss the process", body: "For limited time, you'll be able to install My Green House up to 4 devices, cause we understand no one wants to lose a moment of a newborn"),            
+        Page(image: "AppleWatch", header: "Keep connected while you are away", body: "With a full connection, we are proud to announce the new implementation of real time databases, keep connected no matter where you are"),
+         Page(image: "FaceId", header: "Security", body: "Advanced Face ID. Security is simple when your face is your password. You can unlock your My Green House, log in to independent stations and pay for add-ons with a glance"),
+        Page(image: "Apple3", header: "Don't miss the process", body: "For limited time, you'll be able to install My Green House up to 4 devices, cause we understand no one wants to lose a moment of a newborn"),
     ]
     
     private lazy var pageControl : UIPageControl = {

@@ -14,12 +14,21 @@ class PageCell: UICollectionViewCell{
         didSet{
             guard let unwrappedPage = page else { return }
             image.image = UIImage(named: unwrappedPage.image)
+            var headerFontSize = 18
+            var descriptionFontSize = 15
+            if  UIDevice.current.userInterfaceIdiom == .pad{
+                headerFontSize = 22
+                descriptionFontSize = 18
+            }
+            
+            
+            
             let attributedText = NSMutableAttributedString(
                 string: unwrappedPage.header,
-                attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 18)])
+                attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: CGFloat(headerFontSize))])
                 attributedText.append(NSAttributedString(
                                 string: "\n\n\n\(unwrappedPage.body)",
-                                attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15),
+                    attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: CGFloat(descriptionFontSize)),
                                              NSAttributedString.Key.foregroundColor : UIColor.gray]))
             descriptionText.attributedText = attributedText
             descriptionText.textAlignment = .center
